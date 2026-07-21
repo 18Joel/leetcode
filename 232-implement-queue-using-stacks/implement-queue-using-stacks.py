@@ -17,7 +17,6 @@ class MyQueue:
     def peek(self) -> int:
         return self.s1[-1]
 
-
     def empty(self) -> bool:
         return not self.s1
 
